@@ -1,0 +1,66 @@
+{
+    "layout": {
+        "rows": "5",
+        "cols": "3",
+        "vspace": "2mm",
+        "hspace": "2mm"
+    },
+    "source": {
+        "type": "auto",
+        "tolerance": "20mm",
+        "tlx": "0mm",
+        "tly": "0mm",
+        "brx": "0mm",
+        "bry": "0mm",
+        "ref": "",
+        "stack": "inherit"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vcount": "1",
+        "hcount": "0",
+        "width": "5mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "width": "5mm",
+        "space": "2mm",
+        "fillet": "1mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "clearance": "0mm",
+        "cutcurves": false,
+        "layer": "Cmts.User",
+        "offset": "0mm",
+        "prolong": "0mm",
+        "drill": "0.5mm",
+        "spacing": "0.8mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm",
+        "coppersize": "1mm",
+        "opening": "1mm"
+    },
+    "text": {
+        "type": "none",
+        "text": "",
+        "anchor": "mt",
+        "hoffset": "0mm",
+        "voffset": "0mm",
+        "orientation": "0deg",
+        "width": "1.5mm",
+        "height": "1.5mm",
+        "hjustify": "center",
+        "vjustify": "center",
+        "thickness": "0.3mm",
+        "layer": "F.SilkS"
+    },
+    "post": {
+        "type": "auto",
+        "millradius": "1mm",
+        "copperfill": false
+    }
+}

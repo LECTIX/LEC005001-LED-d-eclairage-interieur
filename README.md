@@ -65,7 +65,11 @@ Peut se faire simplement en utilisant kikit :
 ```
 cd hardware
 
-docker run --rm -w /kikit -v $PWD:/kikit yaqwsx/kikit kikit fab jlcpcb --assembly --no-drc --schematic LEC005001.kicad_sch --field LCSC --corrections JLCPCB_CORRECTION --nametemplate LEC005001_{} LEC005001.kicad_pcb prod/
+# generate PCB panel (panel config can be change in panel-config.json)
+docker run --rm -w /kikit -v $PWD:/kikit yaqwsx/kikit kikit panelize -p panel-config.json LEC005001.kicad_pcb LEC005001-panel.kicad_pcb
+
+# generate assembly files
+docker run --rm -w /kikit -v $PWD:/kikit yaqwsx/kikit kikit fab jlcpcb --assembly --no-drc --schematic LEC005001.kicad_sch --field LCSC --corrections JLCPCB_CORRECTION --nametemplate LEC005001_{} LEC005001-panel.kicad_pcb prod/
 
 ```
 

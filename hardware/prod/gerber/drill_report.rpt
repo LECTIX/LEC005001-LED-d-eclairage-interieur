@@ -1,5 +1,5 @@
-Drill report for LEC005001.kicad_pcb
-Created on Sun Apr 16 17:58:49 2023
+Drill report for LEC005001-panel.kicad_pcb
+Created on Sun Apr 16 18:25:49 2023
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'LEC005001.drl' contains
+Drill file 'LEC005001-panel.drl' contains
     plated through holes:
     =============================================================
 
@@ -17,6 +17,7 @@ Drill file 'LEC005001.drl' contains
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T1  3.200mm  0.1260"  (2 holes)
+    T1  0.500mm  0.0197"  (210 holes)
+    T2  3.200mm  0.1260"  (30 holes)
 
-    Total unplated holes count 2
+    Total unplated holes count 240

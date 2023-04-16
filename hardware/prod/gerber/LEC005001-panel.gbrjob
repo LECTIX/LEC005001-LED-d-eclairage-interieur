@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "6.0.9-8da3e8f707~116~ubuntu20.04.1"
     },
-    "CreationDate": "2023-04-16T17:58:49+00:00"
+    "CreationDate": "2023-04-16T18:25:49+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "LEC005001",
-      "GUID": "4c454330-3035-4303-9031-2e6b69636164",
+      "Name": "LEC005001-panel",
+      "GUID": "4c454330-3035-4303-9031-2d70616e656c",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 25.05,
-      "Y": 12.05
+      "X": 79.0978,
+      "Y": 82.1
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,60 +24,60 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.4
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "LEC005001-CuTop.gtl",
+      "Path": "LEC005001-panel-CuTop.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-CuBottom.gbl",
+      "Path": "LEC005001-panel-CuBottom.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-PasteBottom.gbp",
+      "Path": "LEC005001-panel-PasteBottom.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-PasteTop.gtp",
+      "Path": "LEC005001-panel-PasteTop.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-SilkTop.gto",
+      "Path": "LEC005001-panel-SilkTop.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-SilkBottom.gbo",
+      "Path": "LEC005001-panel-SilkBottom.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-MaskBottom.gbs",
+      "Path": "LEC005001-panel-MaskBottom.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LEC005001-MaskTop.gts",
+      "Path": "LEC005001-panel-MaskTop.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "LEC005001-EdgeCuts.gm1",
+      "Path": "LEC005001-panel-EdgeCuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "LEC005001-CmtUser.gbr",
+      "Path": "LEC005001-panel-CmtUser.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
